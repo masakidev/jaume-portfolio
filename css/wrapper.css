@@ -1,0 +1,16 @@
+.wrapper {
+    padding: 0 1rem;
+    margin: auto;
+}
+
+.wrapper .header {
+    backdrop-filter: blur(10px);
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+    .wrapper {
+        padding: 0 6rem;
+    }
+}
+/* Media Queries */

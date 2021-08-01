@@ -1,0 +1,27 @@
+.quote {
+    margin: 3rem 0;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.quote__primary {
+    margin: 0 0 1.5rem 0;
+    font: var(--quote1)
+}
+
+.quote__secondary {
+    margin-bottom: 1.5rem;
+    font: var(--quote2)
+}
+
+.quote__img {
+    width: 4rem;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+    .quote {
+        margin: 18.75rem 0;
+    }
+}
+/* Media Queries */

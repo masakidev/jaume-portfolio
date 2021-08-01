@@ -1,0 +1,33 @@
+.btn {
+    padding: 0.75rem 1.5rem;
+    font: var(--button);
+    color: var(--white);
+    border-style: none;
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn--primary {
+    color: var(--white);
+    background: var(--purple);
+}
+
+.btn--primary a {
+    color: var(--white);
+}
+
+.btn--secondary {
+    color: var(--purple);
+    background: unset;
+    border: 2px solid var(--purple);   
+}
+
+.btn--secondary a {
+    color: var(--purple);
+}
+
+
+.btn--max-width {
+    width: 100%;
+}

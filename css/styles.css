@@ -1,0 +1,50 @@
+@import './wrapper.css';
+@import './header.css';
+@import './hero.css';
+@import './btn.css';
+@import './btn__icon.css';
+@import './quote.css';
+@import './project.css';
+@import './card__review.css';
+@import './form.css';
+@import './footer.css';
+
+:root {
+    --fontBase: 'Poppins', sans-serif;
+    --fontQuote: 'Oxygen', sans-serif;
+    --headLine1: bold 95px/154px var(--fontBase);
+    --headLine2: bold 59px/95px var(--fontBase);
+    --headLine3: bold 48px/77px var(--fontBase);
+    --headLine4: bold 34px/55px var(--fontBase);
+    --headLine5: bold 24px/38px var(--fontBase);
+    --headLine6: bold 16px/26px var(--fontBase);
+    --body1: 16px/25px var(--fontBase);
+    --body2: 14px/22px var(--fontBase);
+    --button: bold 14px/22px var(--fontBase);
+    --quote1: 24px/38px var(--fontQuote);
+    --quote2: bold 24px/38px var(--fontQuote);
+    --quote3: bold 34px/55px var(--fontQuote);
+    --review: bold 16px/26px var(--fontQuote);
+    --caption: 12px/19.5px var(--fontQuote);
+    --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+    --purple: #310A90;
+    --green: #42E2B8;
+    --white: #fff;
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: var(--gradient);
+    min-height: 100vh;
+    font: var(--body1);
+}

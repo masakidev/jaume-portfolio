@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
+    <title>Jaume Portfolio</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="./images/LOGO.svg" width="70" alt="logo">
+        <nav class="header__menu">
+            <li class="header__li--purple">
+                <a href="#hi">Hola</a>
+            </li>
+            <li>
+                <a href="#projects">Proyectos</a>
+            </li>
+            <li>
+                <a href="#contact">Hablemos</a>
+            </li>
+        </nav>
+        <button class="btn btn--primary">Curriculum</button>
+    </header>
+    <!-- Header -->
+    <div class="wrapper">
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero__img-container">
+                <img class="hero__img" src="./images/user.png" alt="user">
+            </div>
+            <div class="hero__description">
+                <h1 class="hero__greeting">¡Hola a todos!<br><span class="hero__name">Soy Jaume</span></h1>
+                <p class="hero__info">Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+                <div class="hero__social">
+                    <a class="btn__icon"><img src="./images/icon-phone.svg" alt="icon phone" href="tel:30940923"></a>
+                    <a class="btn__icon"><img src="./images/icon-important_mail.svg" alt="icon mail"></a>
+                    <a class="btn__icon"><img src="./images/icon-instagram.svg" alt="icon instagram" title="Instagram"></a>
+                    <a class="btn__icon"><img src="./images/icon-twitter_squared.svg" alt="icon twitter"></a>
+                </div>
+                <button class="btn btn--primary btn--max-width">Descargar curriculum</button>
+            </div>
+        </section>
+        <!-- Hero -->
+        <!-- Quote -->
+        <div class="quote">
+            <p class="quote__primary">A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles.</p>
+            <p class="quote__secondary">Aquí hay algunos que me gustaría compartir.</p>
+            <img class="quote__img" src="./images/icons-down.svg" alt="icon down">
+        </div>
+        <!-- Quote -->
+        <!-- Project www.leonidasesteban.com -->
+        <div class="project project--reverse">
+            <img class="project__img" src="./images/project-leonidas-esteban.png" alt="project www.leonidas.esteban.com">
+            <div class="project__description">
+                <h1 class="project__title">leonidasesteban.com</h1>
+                <p class="project__info">Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End.</p>
+                <div class="project__view">
+                    <button class="btn btn--secondary btn--max-width"><a href="#view-code">Ver código</a></button>
+                    <button class="btn btn--primary btn--max-width"><a href="#view-project">Ver proyecto</a></button>
+                </div>
+            </div>
+        </div>
+        <!-- Project www.leonidasesteban.com -->
+        <!-- Card Review -->
+        <div class="card__review">
+            <img class="card__img" src="./images/review-leonidas-esteban.png" alt="review leonidas esteban">
+            <p class="card__commentary">"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses".</p>
+            <p class="card__job">LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+        </div>
+        <!-- Card Review -->
+        <!-- Project Marvol -->
+        <div class="project">
+            <img  class="project__img" src="./images/project-marvol.png" alt="project www.leonidas.esteban.com">
+            <div class="project__description">
+                <h1 class="project__title">Marvol</h1>
+                <p class="project__info">Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Marvol.</p>
+                <div class="project__view">
+                    <button class="btn btn--secondary btn--max-width"><a href="#view-code">Ver código</a></button>
+                    <button class="btn btn--primary btn--max-width"><a href="#view-project">Ver proyecto</a></button>
+                </div>
+            </div>
+        </div>
+        <!-- Project Marvol-->
+        <!-- Card Review -->
+        <div class="card__review">
+            <img class="card__img" src="./images/review-jason-lopez.png" alt="review jason lopez">
+            <p class="card__commentary">"Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".</p>
+            <p class="card__job">JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+        </div>
+        <!-- Card Review -->
+        <!-- Project Netnet -->
+        <div class="project project--reverse">
+            <img  class="project__img" src="./images/project-netnet.png" alt="project www.leonidas.esteban.com">
+            <div class="project__description">
+                <h1 class="project__title">Netnet</h1>
+                <p class="project__info">Películas y series ilimitadas y mucho más. Disfruta donde quieras. Cancela cuando quieras.</p>
+                <div class="project__view">
+                    <button class="btn btn--secondary btn--max-width"><a href="#view-code">Ver código</a></button>
+                    <button class="btn btn--primary btn--max-width"><a href="#view-project">Ver proyecto</a></button>
+                </div>
+            </div>
+        </div>
+        <!-- Project Netnet-->
+        <!-- Card Review -->
+        <div class="card__review">
+            <img class="card__img" src="./images/review-marco-cortez.png" alt="review marco cortez">
+            <p class="card__commentary">"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".</p>
+            <p class="card__job">MARCO CORTEZ / NETNET</p>
+        </div>
+        <!-- Card Review -->
+        <!-- Form -->
+        <div class="form__container" id="form__container">
+            <h1 class="form__title">
+                Hablemos
+            </h1>
+            <p class="form__commentary">
+                Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.
+            </p>
+            <form class="form" id="form" action="https://formspree.io/f/mqkwybor" method="POST">
+                <label class="form__label" for="name">Nombre completo</label>
+                <input class="form__input" type="text" name="name" id="name" placeholder="Nombre y apellido" required>
+                <label class="form__label" for="email">Correo electrónico</label>
+                <input class="form__input" type="email" name="email" id="email" placeholder="example@domain.com" required>
+                <label class="form__label" for="message">Mensaje</label>
+                <textarea class="form__input" name="message" id="message" placeholder="Mensaje" cols="30" rows="5" required></textarea>
+                <button class="btn btn--primary btn--max-width" type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+        <!-- Form -->
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer__img">
+                <img src="./images/LOGO.svg" alt="logo">
+            </div>
+            <div class="footer__social">
+                <a class="btn__icon"><img src="./images/icon-phone.svg" alt="icon phone" href="tel:30940923"></a>
+                    <a class="btn__icon"><img src="./images/icon-important_mail.svg" alt="icon mail"></a>
+                    <a class="btn__icon"><img src="./images/icon-instagram.svg" alt="icon instagram" title="Instagram"></a>
+                    <a class="btn__icon"><img src="./images/icon-twitter_squared.svg" alt="icon twitter"></a>
+            </div>
+            <div class="footer__info">
+                <p>Coded by <a class="footer__link" href="https://www.github.com/masakidev" target="_blank">masakidev</a> - <a class="footer__link" href="https://www.leonidasesteban.com" target="_blank">leonidasesteban.com</a></p>
+            </div>
+        </footer>
+        <!-- Footer -->
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>

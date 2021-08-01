@@ -1,0 +1,53 @@
+.card__review {
+    padding: 1.5rem;
+    margin: 5rem 0;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur(40px);
+    border-radius: 10px;
+    border-top: 4px solid rgba( 255, 255, 255, 0.18 );
+    border-left: 4px solid rgba( 255, 255, 255, 0.18 );
+    text-align: center;
+}
+
+.card__img {
+    width: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.card__commentary {
+    margin-bottom: 1rem;
+    font: var(--review);
+    color: var(--purple);
+    text-align: start;
+}
+
+.card__job {
+    font: var(--caption);
+    color: var(--purple);
+    opacity: 0.5;
+    text-align: start;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+    .card__review {
+        padding: 5rem;
+        margin: 10rem 0;
+    }
+
+    .card__img {
+        width: 5rem;
+    }
+
+    .card__commentary {
+        font: var(--quote3);
+        text-align: center;
+    }
+
+    .card__job {
+        font: var(--headLine5);
+        text-align: center;
+    }
+}
+/* Media Queries */

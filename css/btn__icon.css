@@ -1,0 +1,14 @@
+.btn__icon {
+    padding: 0.625rem;
+    display: inline-block;
+    background: var(--white);
+    text-decoration: none;
+    border-style: none;
+    border: 2px solid var(--purple);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn__icon img {
+    vertical-align: middle;
+}
