@@ -21,6 +21,7 @@
 
 .project__info {
     margin-bottom: 1rem;
+    color: var(--purple);
 }
 
 .project__view {
